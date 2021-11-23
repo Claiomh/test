@@ -5,27 +5,13 @@
   console.log(parsed_link);
 </script>
 <!--1.2-->
-<div data-video-id="XqZsoesa55w"></div>
-<div data-video-id="5gs2uVQZrJk"></div>
-<script type="text/javascript">
-  let container = document.querySelector('div');
-  getAttribute('data-video-id')
-</script>
+<!-- Не получилось:( -->
 <!--1.3-->
 <!--именно менять существующую если и можно, то о таком способе я не знаю. Можно создать в css новый класс с другим content: ''; вручную, можно создать  -->
 <!--новую как в скрипте в самом теле документа -->
 <script type="text/javascript">
 document.styleSheets[0].addRule('p:before', 'content: "Новый контент";');
 </script>
-
-
-
-
-<style media="screen">
-div::after {
-  content: "Текст";
-}
-</style>
 
 <?php
 //2.1
